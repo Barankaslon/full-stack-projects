@@ -6,7 +6,7 @@ import SignInAndSignUpPage from './pages/signin-and-signup/signin-and-signup';
 import Header from './components/header/header';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { connect } from 'react-redux';
-import {  } from './redux/user/user.actions';
+import { setCurrentUser } from './redux/user/user.actions';
 
 import './App.css';
 
